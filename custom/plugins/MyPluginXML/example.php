@@ -40,6 +40,4 @@ $xmlDOM = dom_import_simplexml($xml)->ownerDocument;
 $xmlDOM->formatOutput = true;
 $xmlDOM->save('laal.xml');
 
-
-
 ?>
