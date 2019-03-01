@@ -4,6 +4,6 @@
 
 {block name='frontend_listing_box_article_price_default'}
     <span class="price--default is--nowrap{if $sArticle.has_pseudoprice} is--discount{/if}">
-        <p> sdasdasashdh</p>
+        <p> Price: </p>
     </span>
 {/block}
