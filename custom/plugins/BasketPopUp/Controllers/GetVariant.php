@@ -18,27 +18,26 @@ class GetVariant extends \Enlight_Controller_Action
 		{
 			$data = json_decode($_POST['formData']);
 			$VariantData = null;
+                        $articleID = Shopware()->Modules()->Articles()->sGetArticleIdByOrderNumber($_POST['artNr']);
+                        //$categoryId = $this->Request()->get('sCategory');
 
-            $articleID = Shopware()->Modules()->Articles()->sGetArticleIdByOrderNumber($_POST['artNr']);
-            //$categoryId = $this->Request()->get('sCategory');
-
-            $selection = [];
+                         $selection = [];
 			foreach($data as $o)
 			{
 				if($o->name != '__csrf_token')
-                {
-                    /*for ($i = 0; $i < count($o->name); $i++)
-                    {
-                        $groupName = $o->name;
-                        for ($j = 0; $j < count($o->value); $j++)
-                        {
-                            $groupValue = $o->value;
-                            $VariantData = Shopware()->Modules()->Articles()->sGetArticleById($articleID, $categoryId ,$_POST['artNr'], [$groupName[$i] => $groupValue[$i]]);
-                            $_POST['artNr'] = $VariantData['ordernumber'];
-                            $OrderNumber = $_POST['artNr'];
-                        }
-                    }*/
-                    $selection[str_replace(['group[',']'], ['',''], $o->name)] = $o->value;
+                                {
+				    /*for ($i = 0; $i < count($o->name); $i++)
+				    {
+					$groupName = $o->name;
+					for ($j = 0; $j < count($o->value); $j++)
+					{
+					    $groupValue = $o->value;
+					    $VariantData = Shopware()->Modules()->Articles()->sGetArticleById($articleID, $categoryId ,$_POST['artNr'], [$groupName[$i] => $groupValue[$i]]);
+					    $_POST['artNr'] = $VariantData['ordernumber'];
+					    $OrderNumber = $_POST['artNr'];
+					}
+				    }*/
+                                      $selection[str_replace(['group[',']'], ['',''], $o->name)] = $o->value;
 				}
 			}
             $VariantData = Shopware()->Modules()->Articles()->sGetArticleById(
