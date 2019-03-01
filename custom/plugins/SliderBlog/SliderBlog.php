@@ -12,9 +12,9 @@ class SliderBlog extends Plugin
 
 
 	public static function getSubscribedEvents()
-    {
+        {
 		return [
-           'Enlight_Controller_Action_PostDispatch_Frontend_Blog' => 'SliderBlog'
+                    'Enlight_Controller_Action_PostDispatch_Frontend_Blog' => 'SliderBlog'
 		];
 	}
 
