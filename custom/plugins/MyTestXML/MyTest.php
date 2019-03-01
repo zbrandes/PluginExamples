@@ -16,10 +16,8 @@ class MyTest extends Plugin {
 	public function MyTest(\Enlight_Event_EventArgs $args) {
 
 		$xml = new \SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><order></order>');
-
 		$xml->addAttribute('version', '1.0');
-
-
+		
 		$ordernumber = $xml->addChild('OrderNumber');
 		$ordernumber->addChild('ordernumber', '20176');
 
@@ -50,8 +48,5 @@ class MyTest extends Plugin {
 
 		echo $xml->asXML();
 		$xml->asXML("custom/plugins/MyTest/MyTestXML.xml");
-
-		echo "Hello World!";
-
 	}
 }
