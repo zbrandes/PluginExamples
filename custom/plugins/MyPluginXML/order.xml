@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order>
+  <OrderNumber>
+    <ordernumber/>
+  </OrderNumber>
+  <OrderID>
+    <orderid>7096</orderid>
+  </OrderID>
+  <Articleordernumber>
+    <articleordernumber>BS_02</articleordernumber>
+  </Articleordernumber>
+  <Price>
+    <price>20</price>
+  </Price>
+  <Quantity>
+    <quantity>1</quantity>
+  </Quantity>
+  <Articlename>
+    <articlename>STRAIGHT CUT JEANS FÜR DAMEN 27 inch</articlename>
+  </Articlename>
+  <Tax>
+    <tax>19.00</tax>
+  </Tax>
+</order>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order>
+  <Oderdata>
+    <OrderNumber>33316</OrderNumber>
+    <Orderdate>30.05.2018 14:20</Orderdate>
+  </Oderdata>
+  <Basketdata>
+    <Articles>
+      <Articlenumber>BS_03</Articlenumber>
+      <Articlename>SLIM FIT JEANS FÜR DAMEN 27 inch</Articlename>
+      <ArticleDescription>&lt;p&gt;&lt;span style="color: #666666; font-family: Roboto, sans-serif; font-size: 16px;"&gt;Die&nbsp;&lt;/span&gt;&lt;span style="box-sizing: border-box; line-height: inherit; font-weight: bold; color: #666666; font-family: Roboto, sans-serif; font-size: 16px;"&gt;Slim Fit Jeans&lt;/span&gt;&lt;span style="color: #666666; font-family: Roboto, sans-serif; font-size: 16px;"&gt;&nbsp;ist im gesamten Beinverlauf eng geschnitten. Im Vergleich zur Skinny Fit Jeans ist diese Passform allerdings ein wenig gerader geschnitten.&nbsp; Slim Fit Passformen stehen für eine körperbetonte, schmale Silhouette. Dank Stretchanteil sind diese Jeans trotzdem komfortabel.&lt;/span&gt;&lt;/p&gt;</ArticleDescription>
+      <Price>25,00</Price>
+      <TaxRate>19</TaxRate>
+      <Quantity>1</Quantity>
+    </Articles>
+  </Basketdata>
+  <Customerdata>
+    <UserID>2</UserID>
+    <CustomerGroup>Shopkunden</CustomerGroup>
+    <Salutation>mr</Salutation>
+    <Firstname>Iwan</Firstname>
+    <Lastname>Iwanoschka</Lastname>
+    <Street>Iwanowstraße</Street>
+    <Zipcode>12345</Zipcode>
+    <City>Iwanowstadt</City>
+    <Country>Deutschland</Country>
+    <Email>zhenya.brandes.98@gmx.net</Email>
+  </Customerdata>
+  <Shippingdata>
+    <Firstname>Evgenij</Firstname>
+    <Lastname>Brandes</Lastname>
+    <Street>Gogolstraße 77</Street>
+    <Zipcode>77777</Zipcode>
+    <City>Gogolsstadt</City>
+    <Country>Deutschland</Country>
+  </Shippingdata>
+  <Paymentdata>
+    <Name>prepayment</Name>
+    <Description>Vorkasse</Description>
+  </Paymentdata>
+  <Totaldata>
+    <AmountPriceIncl>28,90 EUR</AmountPriceIncl>
+    <AmountPriceExcl>24,29 EUR</AmountPriceExcl>
+    <Tax>3,99</Tax>
+    <ShippingCost>3,90 EUR</ShippingCost>
+  </Totaldata>
+</Order>
