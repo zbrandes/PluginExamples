@@ -1,7 +1,6 @@
 <?php
 
 $xml = new SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><EBShop><Order></Order></EBShop>');
-
 $xml->addAttribute('version', '1.0');
 
 $orderdata = $xml->addChild('Oderdata');
