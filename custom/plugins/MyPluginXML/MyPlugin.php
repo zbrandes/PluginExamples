@@ -103,8 +103,7 @@ class MyPlugin extends Plugin {
 
 				$xmlDOM = dom_import_simplexml($xml)->ownerDocument;
 				$xmlDOM->formatOutput = true;
-				$xmlDOM->save('custom/plugins/MyPlugin/Ori-Order.xml');
-			 
+				$xmlDOM->save('custom/plugins/MyPlugin/Ori-Order.xml');		 
 
 	 }
 }
