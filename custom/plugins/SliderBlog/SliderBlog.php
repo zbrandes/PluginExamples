@@ -9,14 +9,12 @@ use Shopware\Models\Blog\Blog;
 
 class SliderBlog extends Plugin
 {
-
-
-	public static function getSubscribedEvents()
-        {
-		return [
-                    'Enlight_Controller_Action_PostDispatch_Frontend_Blog' => 'SliderBlog'
+   public static function getSubscribedEvents()
+   {  
+	   return [
+                  'Enlight_Controller_Action_PostDispatch_Frontend_Blog' => 'SliderBlog'
 		];
-	}
+   }
 
     public function SliderBlog(\Enlight_Event_EventArgs $args)
     {
@@ -69,9 +67,6 @@ class SliderBlog extends Plugin
                 $view->assign('blogSlider', $blogArticle);
             }
             
-
-            
-
             echo '<pre>';
 
             echo 'Get Class Method:';
