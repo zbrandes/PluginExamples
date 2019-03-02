@@ -2,7 +2,6 @@
 
 
 $xml = new SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><mydoc></mydoc>');
-
 $xml->addAttribute('version', '1.0');
 $xml = new SimpleXMLElement('<order></order>');
 $xml = new SimpleXMLElement('<test></test>');
